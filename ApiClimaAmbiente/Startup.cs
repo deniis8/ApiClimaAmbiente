@@ -3,18 +3,12 @@ using ApiClimaAmbiente.Services;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiClimaAmbiente
 {
@@ -41,7 +35,7 @@ namespace ApiClimaAmbiente
                );
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            services.AddScoped<ClimaAmbienteService, ClimaAmbienteService>();            
+            services.AddScoped<ClimaAmbienteService, ClimaAmbienteService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

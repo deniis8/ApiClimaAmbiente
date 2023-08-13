@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiClimaAmbiente.Data.Dto
 {
@@ -13,6 +10,7 @@ namespace ApiClimaAmbiente.Data.Dto
         [Required]
         [Column("ID_CLIMA_TEMPO")]
         public int IdClimaTempo { get; set; }
+
         [Required(ErrorMessage = "O campo Data Hora é obrigatório")]
         [Column("DATA_HORA")]
         public DateTime DataHora { get; set; }

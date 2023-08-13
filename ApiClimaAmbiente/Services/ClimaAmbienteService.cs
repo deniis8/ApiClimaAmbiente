@@ -6,7 +6,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiClimaAmbiente.Services
 {
@@ -51,8 +50,6 @@ namespace ApiClimaAmbiente.Services
                                     Umidade = climaAmbi.Umidade
                                 };
                 return resultado;
-
-
             }
             return null;
         }
@@ -63,7 +60,6 @@ namespace ApiClimaAmbiente.Services
 
             if (climaAmbiente != null)
             {
-
                 var resultado = (from climaAmbi in _context.ClimaAmbientes
                                  where climaAmbi.IdClimaTempo == id && climaAmbi.Deletado != '*'
                                  select new

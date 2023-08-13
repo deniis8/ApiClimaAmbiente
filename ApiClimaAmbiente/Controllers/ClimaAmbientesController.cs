@@ -3,9 +3,6 @@ using ApiClimaAmbiente.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiClimaAmbiente.Controllers
 {
@@ -42,14 +39,12 @@ namespace ApiClimaAmbiente.Controllers
             return Ok(readDto);
         }
 
-        /*
         [HttpGet("{id}")]
         public IActionResult GetClimaAmbientePorId(int id)
         {
             Object readDto = _climaAmbienteService.GetClimaAmbientePorId(id);
             if (readDto == null) return NotFound();
             return Ok(readDto);
-
-        }*/
+        }
     }
 }
