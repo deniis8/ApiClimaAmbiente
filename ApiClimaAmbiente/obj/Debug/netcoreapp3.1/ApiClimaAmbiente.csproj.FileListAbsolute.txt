@@ -32,4 +32,3 @@ C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\
 C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.dll
 C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.pdb
 C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.genruntimeconfig.cache
-C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.csproj.AssemblyReference.cache

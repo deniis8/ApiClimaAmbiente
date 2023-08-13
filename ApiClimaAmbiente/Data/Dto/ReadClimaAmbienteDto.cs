@@ -8,8 +8,8 @@ namespace ApiClimaAmbiente.Data.Dto
     {
         [Key]
         [Required]
-        [Column("ID_CLIMA_TEMPO")]
-        public int IdClimaTempo { get; set; }
+        [Column("ID_CLIMA_AMBIENTE")]
+        public int IdClimaAmbiente { get; set; }
 
         [Required(ErrorMessage = "O campo Data Hora é obrigatório")]
         [Column("DATA_HORA")]

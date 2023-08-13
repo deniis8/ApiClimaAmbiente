@@ -20,7 +20,7 @@ namespace ApiClimaAmbiente.Controllers
         public IActionResult PostClimaAmbiete([FromBody] CreateClimaAmbienteDto climaAmbienteDto)
         {
             ReadClimaAmbienteDto readDto = _climaAmbienteService.PostClimaAmbiente(climaAmbienteDto);
-            return CreatedAtAction(nameof(PostClimaAmbiete), new { IdClimaTempo = readDto.IdClimaTempo }, readDto);
+            return CreatedAtAction(nameof(PostClimaAmbiete), new { IdClimaTempo = readDto.IdClimaAmbiente }, readDto);
         }
 
         [HttpGet("data/{data}")]

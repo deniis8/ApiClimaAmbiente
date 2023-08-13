@@ -44,7 +44,7 @@ namespace ApiClimaAmbiente.Services
                                 orderby climaAmbi.DataHora descending
                                 select new
                                 {
-                                    IdClimaTempo = climaAmbi.IdClimaTempo,
+                                    IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
                                     DataHora = climaAmbi.DataHora,
                                     Temperatura = climaAmbi.Temperatura,
                                     Umidade = climaAmbi.Umidade
@@ -56,15 +56,15 @@ namespace ApiClimaAmbiente.Services
 
         public Object GetClimaAmbientePorId(int id)
         {
-            ClimaAmbiente climaAmbiente = _context.ClimaAmbientes.FirstOrDefault(climaAmbiente => climaAmbiente.IdClimaTempo == id);
+            ClimaAmbiente climaAmbiente = _context.ClimaAmbientes.FirstOrDefault(climaAmbiente => climaAmbiente.IdClimaAmbiente == id);
 
             if (climaAmbiente != null)
             {
                 var resultado = (from climaAmbi in _context.ClimaAmbientes
-                                 where climaAmbi.IdClimaTempo == id && climaAmbi.Deletado != '*'
+                                 where climaAmbi.IdClimaAmbiente == id && climaAmbi.Deletado != '*'
                                  select new
                                  {
-                                     IdClimaTempo = climaAmbi.IdClimaTempo,
+                                     IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
                                      DataHora = climaAmbi.DataHora,
                                      Temperatura = climaAmbi.Temperatura,
                                      Umidade = climaAmbi.Umidade
