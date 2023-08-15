@@ -18,11 +18,11 @@ namespace ApiClimaAmbiente.Models
 
         [Required(ErrorMessage = "O campo Temperatura é obrigatório")]
         [Column("TEMPERATURA")]
-        public int Temperatura { get; set; }
+        public double Temperatura { get; set; }
 
         [Required(ErrorMessage = "O campo Umidade é obrigatório")]
         [Column("UMIDADE")]
-        public int Umidade { get; set; }
+        public double Umidade { get; set; }
 
         [Column("D_E_L_E_T_")]
         public char Deletado { get; set; }

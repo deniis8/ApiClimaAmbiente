@@ -12,10 +12,10 @@ namespace ApiClimaAmbiente.Data.Dto
 
         [Required(ErrorMessage = "O campo Temperatura é obrigatório")]
         [Column("TEMPERATURA")]
-        public int Temperatura { get; set; }
+        public double Temperatura { get; set; }
 
         [Required(ErrorMessage = "O campo Umidade é obrigatório")]
         [Column("UMIDADE")]
-        public int Umidade { get; set; }
+        public double Umidade { get; set; }
     }
 }
