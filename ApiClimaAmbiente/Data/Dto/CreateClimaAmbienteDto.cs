@@ -7,7 +7,7 @@ namespace ApiClimaAmbiente.Data.Dto
     public class CreateClimaAmbienteDto
     {
         [Required(ErrorMessage = "O campo Data Hora é obrigatório")]
-        [Column("DATA_HORA")]
+        [Column("DATA_HORA_CRIACAO")]
         public DateTime DataHora { get; set; }
 
         [Required(ErrorMessage = "O campo Temperatura é obrigatório")]
@@ -15,7 +15,7 @@ namespace ApiClimaAmbiente.Data.Dto
         public double Temperatura { get; set; }
 
         [Required(ErrorMessage = "O campo Umidade é obrigatório")]
-        [Column("UMIDADE")]
-        public double Umidade { get; set; }
+        [Column("HUMIDADE")]
+        public double Humidade { get; set; }
     }
 }
