@@ -26,7 +26,7 @@ namespace ApiClimaAmbiente.Controllers
         [HttpGet("data/{data}")]
         public IActionResult GetClimaAmbientePorData(string data)
         {
-            IEnumerable readDto = _climaAmbienteService.RecuperaLancamentosPorData(data);
+            IEnumerable readDto = _climaAmbienteService.RecuperaClimaAmbientePorData(data);
             if (readDto == null) return NotFound();
             return Ok(readDto);
         }
@@ -34,7 +34,7 @@ namespace ApiClimaAmbiente.Controllers
         [HttpGet("data")]
         public IActionResult GetClimaAmbiente()
         {
-            IEnumerable readDto = _climaAmbienteService.RecuperaLancamentosPorData(null);
+            IEnumerable readDto = _climaAmbienteService.RecuperaClimaAmbientePorData(null);
             if (readDto == null) return NotFound();
             return Ok(readDto);
         }

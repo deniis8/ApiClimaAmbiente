@@ -12,7 +12,7 @@ namespace ApiClimaAmbiente.Models
         [Column("ID_CLIMA_AMBIENTE")]
         public int IdClimaAmbiente { get; set; }
 
-        [Required(ErrorMessage = "O campo Data Hora é obrigatório")]
+        //[Required(ErrorMessage = "O campo Data Hora é obrigatório")]
         [Column("DATA_HORA_CRIACAO")]
         public DateTime DataHora { get; set; }
 

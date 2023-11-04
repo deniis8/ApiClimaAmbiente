@@ -14,7 +14,7 @@ namespace ApiClimaAmbiente
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>().UseUrls(urls: "http://192.168.0.110:5007");
+                    webBuilder.UseStartup<Startup>().UseUrls(urls: "http://192.168.0.105:5007");
                 });
     }
 }

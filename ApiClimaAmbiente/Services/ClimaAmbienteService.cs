@@ -22,16 +22,18 @@ namespace ApiClimaAmbiente.Services
 
         public ReadClimaAmbienteDto PostClimaAmbiente(CreateClimaAmbienteDto climaAmbienteDto)
         {
+            climaAmbienteDto.DataHora = DateTime.Now;
+
             ClimaAmbiente climaAmbiente = _mapper.Map<ClimaAmbiente>(climaAmbienteDto);
             _context.ClimaAmbientes.Add(climaAmbiente);
             _context.SaveChanges();
             return _mapper.Map<ReadClimaAmbienteDto>(climaAmbiente);
         }
 
-        public IEnumerable RecuperaLancamentosPorData(string data)
+        public IEnumerable RecuperaClimaAmbientePorData(string data)
         {
             if (string.IsNullOrEmpty(data))
-                data = Convert.ToString(DateTime.Now.AddMonths(-1).ToString("yyyy-MM-dd"));
+                data = Convert.ToString(DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd"));
 
             List<ClimaAmbiente> climaAmbiente;
             climaAmbiente = _context.ClimaAmbientes.ToList();
@@ -41,7 +43,7 @@ namespace ApiClimaAmbiente.Services
                 List<ReadClimaAmbienteDto> readClimaAmbiente = _mapper.Map<List<ReadClimaAmbienteDto>>(climaAmbiente);
                 var resultado = from climaAmbi in readClimaAmbiente
                                 where climaAmbi.Deletado != '*' && climaAmbi.DataHora >= DateTime.Parse(data)
-                                orderby climaAmbi.DataHora descending
+                                orderby /*climaAmbi.IdClimaAmbiente descending*/ climaAmbi.DataHora descending
                                 select new
                                 {
                                     IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
@@ -65,7 +67,7 @@ namespace ApiClimaAmbiente.Services
                                  select new
                                  {
                                      IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
-                                     //DataHora = climaAmbi.DataHora,
+                                     DataHora = climaAmbi.DataHora,
                                      Temperatura = climaAmbi.Temperatura,
                                      Umidade = climaAmbi.Humidade
                                  }).FirstOrDefault();
