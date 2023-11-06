@@ -22,7 +22,7 @@ namespace ApiClimaAmbiente.Services
 
         public ReadClimaAmbienteDto PostClimaAmbiente(CreateClimaAmbienteDto climaAmbienteDto)
         {
-            climaAmbienteDto.DataHora = DateTime.Now;
+            climaAmbienteDto.DataHora = DateTime.Now.AddHours(-3);
 
             ClimaAmbiente climaAmbiente = _mapper.Map<ClimaAmbiente>(climaAmbienteDto);
             _context.ClimaAmbientes.Add(climaAmbiente);
@@ -43,7 +43,7 @@ namespace ApiClimaAmbiente.Services
                 List<ReadClimaAmbienteDto> readClimaAmbiente = _mapper.Map<List<ReadClimaAmbienteDto>>(climaAmbiente);
                 var resultado = from climaAmbi in readClimaAmbiente
                                 where climaAmbi.Deletado != '*' && climaAmbi.DataHora >= DateTime.Parse(data)
-                                orderby /*climaAmbi.IdClimaAmbiente descending*/ climaAmbi.DataHora descending
+                                orderby /*climaAmbi.IdClimaAmbiente descending*/ climaAmbi.DataHora /*descending*/
                                 select new
                                 {
                                     IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
