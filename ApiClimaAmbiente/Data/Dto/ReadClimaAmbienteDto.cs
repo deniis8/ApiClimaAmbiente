@@ -24,6 +24,6 @@ namespace ApiClimaAmbiente.Data.Dto
         public double Umidade { get; set; }
 
         [Column("D_E_L_E_T_")]
-        public char Deletado { get; set; }
+        public char? Deletado { get; set; }
     }
 }
