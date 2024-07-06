@@ -32,3 +32,12 @@ C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\
 C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.dll
 C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.pdb
 C:\Programacao\cSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.genruntimeconfig.cache
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.csproj.AssemblyReference.cache
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.AssemblyInfoInputs.cache
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.AssemblyInfo.cs
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.csproj.CoreCompileInputs.cache
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.sourcelink.json
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.dll
+C:\Users\adeni\Desenvolvimento\CSharp\ApiClimaAmbiente\ApiClimaAmbiente\obj\Debug\netcoreapp3.1\ApiClimaAmbiente.pdb

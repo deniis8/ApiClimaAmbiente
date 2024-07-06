@@ -49,7 +49,7 @@ namespace ApiClimaAmbiente.Services
                                     IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
                                     DataHora = climaAmbi.DataHora,
                                     Temperatura = climaAmbi.Temperatura,
-                                    Humidade = climaAmbi.Humidade
+                                    Humidade = climaAmbi.Umidade
                                 };
                 return resultado;
             }
@@ -69,7 +69,7 @@ namespace ApiClimaAmbiente.Services
                                      IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
                                      DataHora = climaAmbi.DataHora,
                                      Temperatura = climaAmbi.Temperatura,
-                                     Umidade = climaAmbi.Humidade
+                                     Umidade = climaAmbi.Umidade
                                  }).FirstOrDefault();
 
                 return resultado;
