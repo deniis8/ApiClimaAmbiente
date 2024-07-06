@@ -20,8 +20,8 @@ namespace ApiClimaAmbiente.Data.Dto
         public double Temperatura { get; set; }
 
         [Required(ErrorMessage = "O campo Umidade é obrigatório")]
-        [Column("HUMIDADE")]
-        public double Humidade { get; set; }
+        [Column("UMIDADE")]
+        public double Umidade { get; set; }
 
         [Column("D_E_L_E_T_")]
         public char Deletado { get; set; }

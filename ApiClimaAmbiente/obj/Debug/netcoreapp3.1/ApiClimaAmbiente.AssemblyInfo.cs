@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiClimaAmbiente")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97662929dcac95f57eb3fa77484f0c1c820cbca9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiClimaAmbiente")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiClimaAmbiente")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programacao\\cSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj": {}
+    "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj": {}
   },
   "projects": {
-    "C:\\Programacao\\cSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj": {
+    "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programacao\\cSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj",
+        "projectUniqueName": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj",
         "projectName": "ApiClimaAmbiente",
-        "projectPath": "C:\\Programacao\\cSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj",
+        "projectPath": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\ApiClimaAmbiente.csproj",
         "packagesPath": "C:\\Users\\adeni\\.nuget\\packages\\",
-        "outputPath": "C:\\Programacao\\cSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\obj\\",
+        "outputPath": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\adeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -37,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +60,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

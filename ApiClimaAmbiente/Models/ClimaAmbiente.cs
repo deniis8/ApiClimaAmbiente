@@ -21,8 +21,8 @@ namespace ApiClimaAmbiente.Models
         public double Temperatura { get; set; }
 
         [Required(ErrorMessage = "O campo Umidade é obrigatório")]
-        [Column("HUMIDADE")]
-        public double Humidade { get; set; }
+        [Column("UMIDADE")]
+        public double umidade { get; set; }
 
         [Column("D_E_L_E_T_")]
         public char Deletado { get; set; }
