@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vs/ApiClimaAmbiente/v17/.suo
+/ApiClimaAmbiente/bin/Debug/netcoreapp3.1/ApiClimaAmbiente.dll
+/ApiClimaAmbiente/bin/Debug/netcoreapp3.1/ApiClimaAmbiente.exe
+/ApiClimaAmbiente/bin/Debug/netcoreapp3.1/ApiClimaAmbiente.pdb
+/ApiClimaAmbiente/obj/Debug/netcoreapp3.1/ApiClimaAmbiente.AssemblyInfoInputs.cache
+/ApiClimaAmbiente/obj/Debug/netcoreapp3.1/ApiClimaAmbiente.dll
+/ApiClimaAmbiente/obj/Debug/netcoreapp3.1/ApiClimaAmbiente.pdb
+/ApiClimaAmbiente/obj/Debug/netcoreapp3.1/ApiClimaAmbiente.RazorTargetAssemblyInfo.cache
+/ApiClimaAmbiente/obj/Debug/netcoreapp3.1/ApiClimaAmbiente.sourcelink.json
+/ApiClimaAmbiente/obj/Debug/netcoreapp3.1/apphost.exe
+/ApiClimaAmbiente/obj/Debug/netcoreapp3.1/ApiClimaAmbiente.AssemblyInfo.cs
