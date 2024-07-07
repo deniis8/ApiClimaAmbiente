@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\services\\climaambienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\services\\climaambienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\models\\climaambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\models\\climaambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\data\\dto\\readclimaambientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\data\\dto\\readclimaambientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\data\\dto\\createclimaambientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\data\\dto\\createclimaambientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\data\\dto\\readclimaambientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\data\\dto\\readclimaambientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\controllers\\climaambientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\controllers\\climaambientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|c:\\users\\adeni\\desenvolvimento\\csharp\\apiclimaambiente\\apiclimaambiente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45C5C93B-14D7-42B8-9086-2A71074C7285}|ApiClimaAmbiente\\ApiClimaAmbiente.csproj|solutionrelative:apiclimaambiente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,16 +46,27 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ReadClimaAmbienteDto.cs",
               "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Data\\Dto\\ReadClimaAmbienteDto.cs",
               "RelativeDocumentMoniker": "ApiClimaAmbiente\\Data\\Dto\\ReadClimaAmbienteDto.cs",
               "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Data\\Dto\\ReadClimaAmbienteDto.cs",
               "RelativeToolTip": "ApiClimaAmbiente\\Data\\Dto\\ReadClimaAmbienteDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:25:02.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T04:04:08.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateClimaAmbienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
+              "RelativeDocumentMoniker": "ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
+              "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
+              "RelativeToolTip": "ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:04:02.54Z"
             },
             {
               "$type": "Document",
@@ -57,49 +76,34 @@
               "RelativeDocumentMoniker": "ApiClimaAmbiente\\Models\\ClimaAmbiente.cs",
               "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Models\\ClimaAmbiente.cs",
               "RelativeToolTip": "ApiClimaAmbiente\\Models\\ClimaAmbiente.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:23:40.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateClimaAmbienteDto.cs",
-              "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
-              "RelativeDocumentMoniker": "ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
-              "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
-              "RelativeToolTip": "ApiClimaAmbiente\\Data\\Dto\\CreateClimaAmbienteDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:23:31.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T04:00:47.092Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ClimaAmbienteService.cs",
+              "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Services\\ClimaAmbienteService.cs",
+              "RelativeDocumentMoniker": "ApiClimaAmbiente\\Services\\ClimaAmbienteService.cs",
+              "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Services\\ClimaAmbienteService.cs",
+              "RelativeToolTip": "ApiClimaAmbiente\\Services\\ClimaAmbienteService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T03:54:09.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\appsettings.json",
               "RelativeDocumentMoniker": "ApiClimaAmbiente\\appsettings.json",
               "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\appsettings.json",
               "RelativeToolTip": "ApiClimaAmbiente\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-06T03:21:20.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Program.cs",
-              "RelativeDocumentMoniker": "ApiClimaAmbiente\\Program.cs",
-              "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Program.cs",
-              "RelativeToolTip": "ApiClimaAmbiente\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:20:25.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T03:52:30.158Z"
             },
             {
               "$type": "Document",
@@ -109,10 +113,33 @@
               "RelativeDocumentMoniker": "ApiClimaAmbiente\\Startup.cs",
               "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Startup.cs",
               "RelativeToolTip": "ApiClimaAmbiente\\Startup.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABwAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T03:20:10.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T03:40:29.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Program.cs",
+              "RelativeDocumentMoniker": "ApiClimaAmbiente\\Program.cs",
+              "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Program.cs",
+              "RelativeToolTip": "ApiClimaAmbiente\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBAAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T03:40:27.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClimaAmbientesController.cs",
+              "DocumentMoniker": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Controllers\\ClimaAmbientesController.cs",
+              "RelativeDocumentMoniker": "ApiClimaAmbiente\\Controllers\\ClimaAmbientesController.cs",
+              "ToolTip": "C:\\Users\\adeni\\Desenvolvimento\\CSharp\\ApiClimaAmbiente\\ApiClimaAmbiente\\Controllers\\ClimaAmbientesController.cs",
+              "RelativeToolTip": "ApiClimaAmbiente\\Controllers\\ClimaAmbientesController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T03:38:52.925Z"
             }
           ]
         }
