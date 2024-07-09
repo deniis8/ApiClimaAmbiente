@@ -24,6 +24,9 @@ namespace ApiClimaAmbiente.Models
         [Column("UMIDADE")]
         public double Umidade { get; set; }
 
+        [Column("UMIDADESOLO")]
+        public int? UmidadeSolo { get; set; }
+
         [Column("D_E_L_E_T_")]
         public char? Deletado { get; set; }
     }

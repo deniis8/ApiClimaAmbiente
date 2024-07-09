@@ -36,45 +36,31 @@ namespace ApiClimaAmbiente.Services
                 data = Convert.ToString(DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd"));
 
             List<ClimaAmbiente> climaAmbiente;
-            climaAmbiente = _context.ClimaAmbientes.ToList();
-
-            if (climaAmbiente != null)
+            climaAmbiente = _context.ClimaAmbientes.Where(c => c.Deletado != '*' && c.DataHora >= DateTime.Parse(data)).ToList();
+            if (climaAmbiente.Count() > 0)
             {
-                List<ReadClimaAmbienteDto> readClimaAmbiente = _mapper.Map<List<ReadClimaAmbienteDto>>(climaAmbiente);
-                var resultado = from climaAmbi in readClimaAmbiente
-                                where climaAmbi.Deletado != '*' && climaAmbi.DataHora >= DateTime.Parse(data)
-                                orderby /*climaAmbi.IdClimaAmbiente descending*/ climaAmbi.DataHora /*descending*/
-                                select new
-                                {
-                                    IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
-                                    DataHora = climaAmbi.DataHora,
-                                    Temperatura = climaAmbi.Temperatura,
-                                    Umidade = climaAmbi.Umidade
-                                };
-                return resultado;
+                return climaAmbiente;
             }
-            return null;
+            else
+            {
+                return null;
+            }
         }
 
         public Object GetClimaAmbientePorId(int id)
         {
-            ClimaAmbiente climaAmbiente = _context.ClimaAmbientes.FirstOrDefault(climaAmbiente => climaAmbiente.IdClimaAmbiente == id);
+            //ClimaAmbiente climaAmbiente = _context.ClimaAmbientes.FirstOrDefault(climaAmbiente => climaAmbiente.IdClimaAmbiente == id);
 
-            if (climaAmbiente != null)
+            List<ClimaAmbiente> climaAmbiente;
+            climaAmbiente = _context.ClimaAmbientes.Where(c => c.Deletado != '*' && c.IdClimaAmbiente == id).ToList();
+            if (climaAmbiente.Count() > 0)
             {
-                var resultado = (from climaAmbi in _context.ClimaAmbientes
-                                 where climaAmbi.IdClimaAmbiente == id && climaAmbi.Deletado != '*'
-                                 select new
-                                 {
-                                     IdClimaAmbiente = climaAmbi.IdClimaAmbiente,
-                                     DataHora = climaAmbi.DataHora,
-                                     Temperatura = climaAmbi.Temperatura,
-                                     Umidade = climaAmbi.Umidade
-                                 }).FirstOrDefault();
-
-                return resultado;
+                return climaAmbiente;
             }
-            return null;
+            else
+            {
+                return null;
+            }
         }
     }
 }

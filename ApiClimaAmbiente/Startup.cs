@@ -26,7 +26,8 @@ namespace ApiClimaAmbiente
         {
             services.AddControllers();
 
-            string ambiente = "ServerConnectionClimaAmbiente";// "ServerConnectionClimaAmbiente";
+            string ambiente = "ServerConnectionClimaAmbiente";
+            //string ambiente = "ServerConnectionClimaAmbienteDev";
             services.AddDbContextPool<AppDbContext>(options => options
                    .UseMySql(
                        Configuration.GetConnectionString(ambiente),

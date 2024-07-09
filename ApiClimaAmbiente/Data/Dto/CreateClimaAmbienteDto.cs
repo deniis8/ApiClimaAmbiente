@@ -17,5 +17,8 @@ namespace ApiClimaAmbiente.Data.Dto
         [Required(ErrorMessage = "O campo Umidade é obrigatório")]
         [Column("UMIDADE")]
         public double Umidade { get; set; }
+
+        [Column("UMIDADESOLO")]
+        public int? UmidadeSolo { get; set; }
     }
 }
