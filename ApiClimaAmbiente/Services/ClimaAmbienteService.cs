@@ -33,7 +33,7 @@ namespace ApiClimaAmbiente.Services
         public IEnumerable RecuperaClimaAmbientePorData(string data)
         {
             if (string.IsNullOrEmpty(data))
-                data = Convert.ToString(DateTime.Now.AddHours(-6).ToString("yyyy-MM-dd hh:mm"));
+                data = Convert.ToString(DateTime.Now.AddHours(-15).ToString("yyyy-MM-dd HH:mm"));
 
             List<ClimaAmbiente> climaAmbiente;
             climaAmbiente = _context.ClimaAmbientes.Where(c => c.Deletado != '*' && c.DataHora >= DateTime.Parse(data)).ToList();
