@@ -37,6 +37,7 @@ namespace ApiClimaAmbiente
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<ClimaAmbienteService, ClimaAmbienteService>();
+            services.AddScoped<ImagemService, ImagemService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

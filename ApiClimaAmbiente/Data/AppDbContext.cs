@@ -7,6 +7,8 @@ namespace ApiClimaAmbiente.Data
     {
        public DbSet<ClimaAmbiente> ClimaAmbientes { get; set; }
 
+        public DbSet<Imagem> Imagens { get; set; }
+
         public AppDbContext(DbContextOptions<AppDbContext> opt) : base(opt)
         {
 
